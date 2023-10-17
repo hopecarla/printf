@@ -7,5 +7,7 @@
 
 int _putchr(char c);
 int putss(char *c);
+int is_digit(char c);
+int is_printable(char c);
 int _printf(const char *format, ...);
 #endif
