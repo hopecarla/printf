@@ -22,7 +22,7 @@ int _printf(const char *format, ...);
 int print_char(char *buffer, int *buffer_index, char character);
 int print_string(char *buffer, int *buffer_index, const char *str);
 int print_int(char *buffer, int *buffer_index, int num);
-int print_uint(char *buffer, int *buffer_index, unsigned int num);
+int print_unsign(char *buffer, int *buffer_index, unsigned int num);
 int print_hex(char *buffer, int *buffer_index, unsigned int num, char format);
 int print_ptr(char *buffer, int *buffer_index, void *ptr);
 int print_percent(char *buffer, int *buffer_index);
